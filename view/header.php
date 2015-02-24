@@ -11,3 +11,6 @@ and open the template in the editor.
         <title></title>
     </head>
     <body>
+<video autoplay id="bgvid">
+<source src="video/idk.mp4" type="video/mp4">
+</video>

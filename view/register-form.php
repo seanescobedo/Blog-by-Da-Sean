@@ -7,7 +7,7 @@
 <form method="post" action="<?php echo $path . "controller/create-user.php";?>">
     <div>
         <label for="email">Email: </label>
-        <input type="text" name=" email" /> 
+        <input type="text" name="email" /> 
     </div>
     <br />
     <br />
