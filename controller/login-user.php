@@ -6,10 +6,17 @@
    
     $query = $_SESSION["connection"]->query("SELECT salt, password FROM users WHERE username = '$username'");
     
-    if($query->num_row == 1){
+    if($query->num_rows == 1) {
         $row = $query->fetch_array();
         
-        if($row["password"] == crypt($password, $salt)){
-            
+        if($row["password"] === crypt($password, $row["salt"])) {
+            $_SESSION["authenticated"] = true;
+            echo "<p>Login Succesful!!</p>";
+        }
+        else {
+            echo "<p>Invalid username or password</p>";
         }
     }
+    else {
+        echo "<p>Invalid username or password</p>";
+    }   
