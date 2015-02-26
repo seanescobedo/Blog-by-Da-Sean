@@ -1,4 +1,4 @@
-                                                                                                                                                                                                                                                                                                                                                                                                                                                        div{
+div{
     border-style: double;
     border-width: 10px;
     padding: 30px;
@@ -11,6 +11,7 @@ h1{
 /*color i had for all my h1s*/
 h2{
     color: deeppink;
+    padding-left: 100px;
 }
 /*color i had for all my h2s*/
 .container{
@@ -53,6 +54,7 @@ img {
 /*index background*/
 p{
     color: white;
+    padding-left: 90px;
 }
 /*made every p white at first*/
 #pic{
@@ -314,5 +316,12 @@ background-size: cover;
 }
 
 .post {
-    color: aqua;
+    padding: 0px;
+    margin-left: 700px;
+    margin-right: 700px;
+}
+/*the website overall background*/
+#blog{
+    background-image: url(http://www.sfedfund.org/images/sftr/A.%20Larrimore.jpg);
+    background-size: cover;
 }

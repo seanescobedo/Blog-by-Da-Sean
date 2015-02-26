@@ -16,26 +16,32 @@ and open the template in the editor.
         <link type="text/css" rel="stylesheet" href="css/custom-style.css">
         <title></title>
     </head>
-    <body>
+    <body id="blog">
+        <!-- the navigation buttons -->
        <div class="bs-example" data-example-id="nav-pills-with-dropdown">
     <ul class="nav nav-pills">
       <li role="presentation" class="active"><a href="index.php">Home</a></li>
       <li role="presentation"><a href="register.php">Register</a></li>
       <li role="presentation"><a href="login.php">Login</a></li>
-      <li role="presentation"><a href="logout-user.php">Logout</a></li>
-      
-          <li class="dropdown open">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="true">Dropdown <span class="caret"></span></a>
-              <ul class="dropdown-menu" role="menu">
-                <li><a href="#">Action</a></li>
-                <li><a href="#">Another action</a></li>
-                <li><a href="#">Something else here</a></li>
-                <li class="divider"></li>
-                <li><a href="#">Separated link</a></li>
-                <li class="divider"></li>
-                <li><a href="#">One more separated link</a></li>
-              </ul>
-            </li>
+      <li role="presentation"><a href="controller/logout-user.php">Logout</a></li>
+      <!-- the dropdown bar -->
+                  <li role="presentation" class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-expanded="false">
+                      <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu" role="menu">
+                      <li><a href="https://www.youtube.com/watch?v=4KdZ96XYTrk">Link</a></li>
+                      <li class="divider"></li>
+                      <li><a href="https://www.youtube.com/user/speedyw03">Link</a></li>
+                      <li class="divider"></li>
+                      <li><a href="https://www.youtube.com/user/VanossGaming">Link</a></li>
+                      <li class="divider"></li>
+                      <li><a href="https://www.youtube.com/watch?v=VMeirNg87AY">Link</a></li>
+                      <li class="divider"></li>
+                      <li><a href="https://www.youtube.com/watch?v=sr8UQpdKy-k">Link</a></li>
+                    </ul>
+                  </li>
+             
       
     </ul>
   </div>
