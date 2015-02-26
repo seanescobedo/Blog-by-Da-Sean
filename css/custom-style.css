@@ -312,3 +312,7 @@ background-size: cover;
 #animateList li a:hover {
     padding-left: 20px;
 }
+
+.post {
+    color: aqua;
+}

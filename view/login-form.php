@@ -17,6 +17,6 @@
     <br />
     <br />
     <div>
-        <button type="submit">Enter</button>
+        <button type="submit">Login</button>
     </div>
 </form>
